@@ -27,6 +27,8 @@ class BST
   def each 
   end
   
-  def record_all_data 
+  def record_all_data(bst)
+    all_data = []
+    return all_data
   end
 end
