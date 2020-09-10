@@ -24,7 +24,10 @@ class BST
     end
   end
   
-  def each(block)
+  def each(&block)
+    if self.left
+      
+    end
   end
   
   # def record_all_data(bst)
