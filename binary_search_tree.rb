@@ -16,7 +16,7 @@ class BST
     if value <= data && @left == nil
       @left = BST.new(value)
     elsif value <= data && @left != nil
-      @left.data.left = BST.new(value)
+      @left.insert(value)
     elsif value > data && @right == nil
       @right = BST.new(value)   
     end
