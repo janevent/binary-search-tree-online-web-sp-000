@@ -4,12 +4,12 @@ class BST
   
   def initialize(number)
     @number = number
+    @left = nil
+    @right = nil
   end
   
   def data 
     @number
-    @left = nil
-    @right = nil
   end
   
   def insert(value)
