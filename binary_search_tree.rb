@@ -26,7 +26,7 @@ class BST
   
   def each(&block)
     if self.left
-      
+      self.left.each(&block)
     end
   end
   
