@@ -30,7 +30,10 @@ class BST
   def record_all_data(bst)
     all_data = []
     current_node = bst.data
-    if current_node.left != nil
+    while current_node != nil
+      if !!current_node.left
+        current_node = current_node.left
+      end
      
     end
     return all_data
