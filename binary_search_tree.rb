@@ -24,6 +24,8 @@ class BST
     end
   end
   
+  def each 
+  end
   
   def record_all_data 
   end
