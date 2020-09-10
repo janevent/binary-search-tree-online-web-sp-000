@@ -34,7 +34,7 @@ class BST
       if !!current_node.left
         current_node = current_node.left
       end
-     
+     all_data << current_node
     end
     return all_data
   end
