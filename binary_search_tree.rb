@@ -30,7 +30,7 @@ class BST
     end
     yield self.data
     if self.right
-      self.right.each(&bloxk)
+      self.right.each(&block)
     end
   end
   
