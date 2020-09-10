@@ -24,18 +24,18 @@ class BST
     end
   end
   
-  def each 
+  def each(block)
   end
   
-  def record_all_data(bst)
-    all_data = []
-    current_node = bst.data
-    while current_node != nil
-      if !!current_node.left
-        current_node = current_node.left
-      end
-     all_data << current_node
-    end
-    return all_data
-  end
+  # def record_all_data(bst)
+  #   all_data = []
+  #   current_node = bst.data
+  #   while current_node != nil
+  #     if !!current_node.left
+  #       current_node = current_node.left
+  #     end
+  #   all_data << current_node
+  #   end
+  #   return all_data
+  # end
 end
