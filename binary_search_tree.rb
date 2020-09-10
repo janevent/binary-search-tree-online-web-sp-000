@@ -28,6 +28,10 @@ class BST
     if self.left
       self.left.each(&block)
     end
+    yield self.data
+    if self.right
+      self.right.each(&bloxk)
+    end
   end
   
   # def record_all_data(bst)
