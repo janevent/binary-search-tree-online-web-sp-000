@@ -29,6 +29,10 @@ class BST
   
   def record_all_data(bst)
     all_data = []
+    node = bst.data
+    while node != nil
+      
+    end
     return all_data
   end
 end
